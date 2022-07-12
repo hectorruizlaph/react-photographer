@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+margin: 0;
+}
+
+@font-face {
+  font-family: "BenthamRegular";
+  src: local("BenthamRegular"),
+    url("./fuentes/BenthamRegular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: local("MonserratBold"), 
+    url("./fuentes/MontserratBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "MontserratLight";
+  src: local("MonserratLight"), 
+    url("./fuentes/MontserratLight.ttf") format("truetype");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: local("MonserratMedium"), 
+    url("./fuentes/MontserratMedium.ttf") format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "MontserratReglar";
+  src: local("MonserratRegular"), 
+    url("./fuentes/MontserratRegular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: local("MonserratSemiBold"), 
+    url("./fuentes/MontserratSemiBold.ttf") format("truetype");
+  font-weight: 600;
+}

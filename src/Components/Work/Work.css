@@ -1,0 +1,33 @@
+.button {
+  border: none;
+  padding: 10%;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 30px;
+}
+.activeButton {
+  background-color: transparent;
+  border-bottom: 1px solid #7d0412;
+  padding: 10%;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 80%;
+}
+
+.headline {
+  text-align: center;
+  padding: 1em;
+  font-size: 70px;
+}
