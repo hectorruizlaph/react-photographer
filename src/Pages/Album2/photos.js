@@ -1,28 +1,26 @@
-import ImageAlbumTwo1 from "./E+J/Page001.jpg"
-import ImageAlbumTwo2 from "./E+J/Page001.jpg"
-import ImageAlbumTwo3 from "./E+J/Page001.jpg"
-import ImageAlbumTwo4 from "./E+J/Page004.jpg"
-import ImageAlbumTwo5 from "./E+J/Page005.jpg"
-import ImageAlbumTwo6 from "./E+J/Page005.jpg"
-import ImageAlbumTwo7 from "./E+J/Page005.jpg"
-import ImageAlbumTwo8 from "./E+J/Page008.jpg"
-import ImageAlbumTwo9 from "./E+J/Page009.jpg"
-import ImageAlbumTwo10 from "./E+J/Page009.jpg"
-import ImageAlbumTwo11 from "./E+J/Page009.jpg"
-import ImageAlbumTwo12 from "./E+J/Page012.jpg"
-import ImageAlbumTwo13 from "./E+J/Page013.jpg"
-// import ImageAlbumTwo14 from "./E+J/Page014.jpg"
-// import ImageAlbumTwo15 from "./E+J/Page015.jpg"
-import ImageAlbumTwo16 from "./E+J/Page016.jpg"
-import ImageAlbumTwo17 from "./E+J/Page017.jpg"
-import ImageAlbumTwo18 from "./E+J/Page018.jpg"
-import ImageAlbumTwo19 from "./E+J/Page019.jpg"
-import ImageAlbumTwo20 from "./E+J/Page020.jpg"
-import ImageAlbumTwo21 from "./E+J/Page021.jpg"
-import ImageAlbumTwo22 from "./E+J/Page022.jpg"
-import ImageAlbumTwo23 from "./E+J/Page023.jpg"
-import ImageAlbumTwo24 from "./E+J/Page024.jpg"
-import ImageAlbumTwo25 from "./E+J/Page025.jpg"
+import ImageAlbumTwo1 from "./Erika-Arturo/1.jpg"
+import ImageAlbumTwo2 from "./Erika-Arturo/2.jpg"
+import ImageAlbumTwo3 from "./Erika-Arturo/3.jpg"
+import ImageAlbumTwo4 from "./Erika-Arturo/4.jpg"
+import ImageAlbumTwo5 from "./Erika-Arturo/5.jpg"
+import ImageAlbumTwo6 from "./Erika-Arturo/6.jpg"
+import ImageAlbumTwo7 from "./Erika-Arturo/7.jpg"
+import ImageAlbumTwo8 from "./Erika-Arturo/8.jpg"
+import ImageAlbumTwo9 from "./Erika-Arturo/9.jpg"
+import ImageAlbumTwo10 from "./Erika-Arturo/10.jpg"
+import ImageAlbumTwo11 from "./Erika-Arturo/11.jpg"
+import ImageAlbumTwo12 from "./Erika-Arturo/12.jpg"
+import ImageAlbumTwo13 from "./Erika-Arturo/13.jpg"
+import ImageAlbumTwo14 from "./Erika-Arturo/14.jpg"
+import ImageAlbumTwo15 from "./Erika-Arturo/15.jpg"
+import ImageAlbumTwo16 from "./Erika-Arturo/16.jpg"
+import ImageAlbumTwo17 from "./Erika-Arturo/17.jpg"
+import ImageAlbumTwo18 from "./Erika-Arturo/18.jpg"
+import ImageAlbumTwo19 from "./Erika-Arturo/19.jpg"
+import ImageAlbumTwo20 from "./Erika-Arturo/20.jpg"
+import ImageAlbumTwo21 from "./Erika-Arturo/21.jpg"
+import ImageAlbumTwo22 from "./Erika-Arturo/22.jpg"
+import ImageAlbumTwo23 from "./Erika-Arturo/23.jpg"
 
 
 export const photos = [
@@ -103,16 +101,16 @@ export const photos = [
       width: 3,
       height: 2
     },
-    // {
-    //   src: ImageAlbumTwo14,
-    //   width: 3,
-    //   height: 2
-    // },
-    // {
-    //   src: ImageAlbumTwo15,
-    //   width: 3,
-    //   height: 2
-    // },
+    {
+      src: ImageAlbumTwo14,
+      width: 3,
+      height: 2
+    },
+    {
+      src: ImageAlbumTwo15,
+      width: 3,
+      height: 2
+    },
     {
       src: ImageAlbumTwo16,
       width: 3,
@@ -152,16 +150,6 @@ export const photos = [
       src: ImageAlbumTwo23,
       width: 3,
       height: 2
-    },
-    {
-      src: ImageAlbumTwo24,
-      width: 3,
-      height: 2
-    },
-    {
-      src: ImageAlbumTwo25,
-      width: 3,
-      height: 2
-    },
+    }
   ];
   

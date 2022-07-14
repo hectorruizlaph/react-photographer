@@ -21,7 +21,7 @@ function Album2() {
     <div className="container">
       <div className="section">
         <div className="album-container">
-          <h1>Elizabeth + Josh</h1>
+          <h1>Erika + Arturo</h1>
         </div>
         <div style={{ padding: "0 10% 0 10%", backgroundColor: "#F6F6F3" }}>
         <Gallery
