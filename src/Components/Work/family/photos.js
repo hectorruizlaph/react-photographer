@@ -1,58 +1,64 @@
-import ImageEngagement1 from "../../../assets/images/thumbnails/engagement/24_.jpg"
-import ImageEngagement2 from "../../../assets/images/thumbnails/engagement/24_.jpg"
-import ImageEngagement3 from "../../../assets/images/thumbnails/engagement/41.jpg"
-import ImageEngagement4 from "../../../assets/images/thumbnails/engagement/7.jpg"
-import ImageEngagement5 from "../../../assets/images/thumbnails/engagement/9_.jpg"
-import ImageEngagement6 from "../../../assets/images/thumbnails/engagement/DSC_5629-Edit.jpg"
-import ImageEngagement7 from "../../../assets/images/thumbnails/engagement/E+J-152-Edit.jpg"
-import ImageEngagement8 from "../../../assets/images/thumbnails/engagement/F+F-80-Edit.jpg"
-import ImageEngagement9 from "../../../assets/images/thumbnails/engagement/L+J-140.jpg"
+import ImageFamily1 from "./family/1.jpg"
+import ImageFamily2 from "./family/2.jpg"
+import ImageFamily3 from "./family/3.jpg"
+import ImageFamily4 from "./family/4.jpg"
+import ImageFamily5 from "./family/5.jpg"
+import ImageFamily6 from "./family/6.jpg"
+import ImageFamily7 from "./family/7.jpg"
+import ImageFamily8 from "./family/8.jpg"
+import ImageFamily9 from "./family/9.jpg"
+import ImageFamily10 from "./family/10.jpg"
 
 export const photos = [
     {
-      src: ImageEngagement1,
-      width: 4,
-      height: 3
+      src: ImageFamily1,
+      width: 1.3,
+      height: 2
     },
     {
-      src: ImageEngagement2,
-      width: 1,
-      height: 1
+      src: ImageFamily2,
+      width: 1.3,
+      height: 2
     },
     {
-      src: ImageEngagement3,
-      width: 3,
-      height: 4
+      src: ImageFamily3,
+      width: 1.3,
+      height: 2
     },
     {
-      src: ImageEngagement4,
-      width: 3,
-      height: 4
+      src: ImageFamily4,
+      width: 2,
+      height: 1.3
     },
     {
-      src: ImageEngagement5,
-      width: 3,
-      height: 4
+      src: ImageFamily5,
+      width: 1.3,
+      height: 2
     },
     {
-      src: ImageEngagement6,
-      width: 4,
-      height: 3
+      src: ImageFamily6,
+      width: 2,
+      height: 1.3
     },
     {
-      src: ImageEngagement7,
-      width: 3,
-      height: 4
+      src: ImageFamily7,
+      width: 1.3,
+      height: 2
     },
     {
-      src: ImageEngagement8,
-      width: 4,
-      height: 3
+      src: ImageFamily8,
+      width: 2,
+      height: 1.3
     },
     {
-      src: ImageEngagement9,
-      width: 4,
-      height: 3
+      src: ImageFamily9,
+      width: 1.3,
+      height: 2
+    },
+    {
+      src: ImageFamily10,
+      width: 2,
+      height: 1.3
     }
   ];
   
