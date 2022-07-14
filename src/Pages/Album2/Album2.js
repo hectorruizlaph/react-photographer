@@ -2,9 +2,9 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
-import "./Album1.css";
+import "./Album2.css";
 
-function Album1() {
+function Album2() {
   const [currentImage1, setCurrentImage1] = useState(0);
   const [viewerIsOpen1, setViewerIsOpen1] = useState(false);
 
@@ -20,17 +20,6 @@ function Album1() {
   return (
     <div className="container">
       <div className="section">
-        {photos.map((x) => {
-          <div
-            style={{
-              backgroundImage: `url(${x.src})`,
-              width: "100px",
-              backgroundSize: "auto 100%",
-              backgroundRepeat: "no-repeat",
-            }}
-          ></div>;
-        })}
-
         <div className="album-container">
           <h1>Elizabeth + Josh</h1>
         </div>
@@ -65,4 +54,4 @@ function Album1() {
   );
 }
 
-export default Album1;
+export default Album2;

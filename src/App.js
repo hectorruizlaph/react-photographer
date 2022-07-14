@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
-import Album1 from "./Pages/Album1/Album11";
-import Album2 from "./Pages/Album2";
+import Album1 from "./Pages/Album1/Album1";
+import Album2 from "./Pages/Album2/Album2";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
