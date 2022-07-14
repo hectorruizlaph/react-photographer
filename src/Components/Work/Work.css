@@ -1,14 +1,14 @@
 .button {
   border: none;
-  padding: 10%;
   background-color: transparent;
   cursor: pointer;
   font-size: 30px;
+  padding: 1.5rem 5rem;
 }
 .activeButton {
   background-color: transparent;
   border-bottom: 1px solid #7d0412;
-  padding: 10%;
+  padding: 1.5rem 5rem;
 }
 
 .hide {
@@ -28,6 +28,31 @@
 
 .headline {
   text-align: center;
-  padding: 1em;
   font-size: 70px;
+}
+
+.work_nav {
+  display: block;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.work_list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.work_menu li {
+  font-size: x-large;
+}
+
+.work_menu a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
