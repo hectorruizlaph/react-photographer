@@ -32,7 +32,6 @@ h2 {
     width: 440px;
     height: 660px;
     cursor: pointer;
-    padding-bottom: 3%;
 }
 
 .shadow-div {
@@ -52,3 +51,12 @@ h2 {
 .album-text {
     color: white;
 }
+
+@media only screen and (max-width: 750px) {
+    .image_album_div {
+        width: 330px;
+        height: 495px;
+        cursor: pointer;
+    }
+  }
+  
