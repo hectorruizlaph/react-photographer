@@ -2,13 +2,12 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
-import "./Album3.css";
 
 function Album3() {
   const [currentImage1, setCurrentImage1] = useState(0);
   const [viewerIsOpen1, setViewerIsOpen1] = useState(false);
 
-  const openLightbox = useCallback((event, { photo, index }) => {
+  const openLightbox = useCallback(({ index }) => {
     setCurrentImage1(index);
     setViewerIsOpen1(true);
   }, []);
@@ -19,7 +18,7 @@ function Album3() {
   };
   return (
     <>
-      <div className="album-container">
+      <div style={{ padding: "2% 10% 2% 10%", backgroundColor: "#F6F6F3", textAlign: "center" }}>
         <h1>Erika + Arturo</h1>
       </div>
       <div style={{ padding: "0 10% 0 10%", backgroundColor: "#F6F6F3" }}>

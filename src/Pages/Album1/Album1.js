@@ -18,7 +18,7 @@ function Album1() {
   };
   return (
     <div>
-      <div className="album-container" id="album1">
+      <div style={{ padding: "2% 10% 2% 10%", backgroundColor: "#F6F6F3", textAlign: "center" }} id="album1">
         <h1>Elizabeth + Josh</h1>
       </div>
       <div style={{ padding: "0 10% 0 10%", backgroundColor: "#F6F6F3" }}>
