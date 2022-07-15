@@ -37,7 +37,7 @@ margin: 0;
 }
 
 @font-face {
-  font-family: "MontserratReglar";
+  font-family: "MontserratRegular";
   src: local("MonserratRegular"), 
     url("./fuentes/MontserratRegular.ttf") format("truetype");
   font-weight: normal;

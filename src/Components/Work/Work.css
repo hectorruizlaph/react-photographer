@@ -4,10 +4,11 @@
   cursor: pointer;
   font-size: 30px;
   padding: 1.5rem 5rem;
+  border-bottom: 1px solid #999999;
 }
 .activeButton {
   background-color: transparent;
-  border-bottom: 1px solid #7d0412;
+  border-bottom: 2px solid #7d0412;
   padding: 1.5rem 5rem;
 }
 
@@ -29,6 +30,7 @@
 .headline {
   text-align: center;
   font-size: 70px;
+  padding-bottom: 2rem;
 }
 
 .work_nav {
@@ -45,10 +47,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.work_menu li {
-  font-size: x-large;
+  flex-wrap: wrap;
 }
 
 .work_menu a {
